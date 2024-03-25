@@ -1,0 +1,12 @@
+- Image to data:
+	- Image validation (DONE)
+	- Functionality for taking uploaded image file and converting to array representation
+		- Need to be able to deal with colours other than black/white, as well as transition / colour gradients
+		- Needs to be universal for all searching (or maze solving) algorithms
+	- Array representation of maze to necessary data structure, if arrays do not work
+
+- Maze array data
+	- Need to get BFS, DFS, and any other algorithm for solving mazes from array representation
+	- Need image library to draw solution path on image and show
+		- Nice to have: steps the algorithm took in different colour, where the more recent steps are a darker colour
+	- Need to show all maze solutions and data (time, iterations taken)
